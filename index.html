@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Catering Event Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Catering Event Management</h2>
+
+  <div class="form">
+    <input type="text" id="eventName" placeholder="Event Name">
+    <input type="date" id="eventDate">
+    <input type="text" id="location" placeholder="Location">
+    <button id="addBtn">Add Event</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="eventList"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
